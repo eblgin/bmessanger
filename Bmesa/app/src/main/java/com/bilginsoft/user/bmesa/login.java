@@ -45,7 +45,7 @@ public class login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 NetManagerr nr = new NetManagerr();
-                nr.execute("https://bmessanger.com/sorgula.php");
+                nr.execute("Your Url");
             }
         });
 
