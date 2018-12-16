@@ -46,16 +46,16 @@ public class mesajl extends AppCompatActivity {
 
 
         final NetManagerr net = new NetManagerr();
-        net.execute("https://bmessanger.com/mescek.php");
+        net.execute("Your Url");
         Button b = (Button)findViewById(R.id.bnsen);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 NetManager manager = new NetManager();
                 mesajs = editText.getText().toString();
-                manager.execute("https://bmessanger.com/mesgond.php");
+                manager.execute("Your Url");
                 NetManagerr netManagerr = new NetManagerr();
-                netManagerr.execute("https://bmessanger.com/mescek.php");
+                netManagerr.execute("Your Url");
             }
         });
         Thread t = new Thread(new Runnable() {
@@ -65,7 +65,7 @@ public class mesajl extends AppCompatActivity {
 
                     try {
                         NetManagerr nett = new NetManagerr();
-                        nett.execute("https://bmessanger.com/mescek.php");
+                        nett.execute("Your Url");
                         Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
