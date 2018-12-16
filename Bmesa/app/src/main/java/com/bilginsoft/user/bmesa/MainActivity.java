@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         editor = preferences.edit();
         Toast.makeText(getApplicationContext(),preferences.getString("IDe",""),Toast.LENGTH_SHORT).show();
-        new NetManager().execute("https://bmessanger.com/denemejson.php");
+        new NetManager().execute("Your Url");
 
         Toast.makeText(getApplicationContext(),userdizi.toString(),Toast.LENGTH_SHORT).show();
 
