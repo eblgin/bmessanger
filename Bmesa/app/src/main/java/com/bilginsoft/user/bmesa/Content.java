@@ -75,7 +75,7 @@ public class Content extends AppCompatActivity {
                     if (!names.equals("") && !surnames.equals("") && !usernames.equals("") && !password1s.equals("") && !password2s.equals("")) {
                         if (password2s.equals(password1s)) {
                             NetManager manager = new NetManager();
-                            manager.execute("https://bmessanger.com/eklejson.php");
+                            manager.execute("You Url");
                         } else {
                             password1.setError("Bu alanlar eşit olmalıdır");
                             password2.setError("Bu alanlar eşit olmalıdır");
